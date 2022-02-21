@@ -18,7 +18,7 @@ public class ReservationService {
 
         // list of room objects
         List<IRoom> allRooms = new ArrayList<IRoom>();
-        private List<Reservation> allReservations = new ArrayList<Reservation>();
+        List<Reservation> allReservations = new ArrayList<Reservation>();
 
         public IRoom addRoom(String roomNumber, Double price, RoomType roomType) {
             IRoom room = null;

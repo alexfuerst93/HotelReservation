@@ -1,18 +1,28 @@
 package service;
 
-import model.Customer;
-import model.IRoom;
-import model.Reservation;
-import model.RoomType;
+import model.*;
 
 import java.time.LocalDate;
 import java.util.List;
 
 public class Tester {
     public static void main(String[] args) {
+
+        FillTestData.getInstance().FillData();
+        for (IRoom room : ReservationService.getInstance().allRooms) {
+            System.out.println(room);
+        }
+        CustomerService.getInstance().getAllCustomers();
+        for (Reservation reservation : ReservationService.getInstance().allReservations) {
+            System.out.println(reservation);
+        }
+
+        /*
         ReservationService.getInstance().addRoom("#123", 35.0, RoomType.DOUBLE);
         ReservationService.getInstance().addRoom("#123", 0.0, RoomType.SINGLE);
         ReservationService.getInstance().getAllRooms();
+
+         */
         //FillTestData.getInstance().FillData();
         //System.out.println("-----------");
 
