@@ -5,10 +5,14 @@ import alex.fuerst.model.*;
 import java.time.LocalDate;
 import java.util.*;
 
+/**
+ * Singelton class that configures hotel rooms and reservations.
+ */
 public class ReservationService {
 
         private static ReservationService reservationService;
         private ReservationService() {}
+
         public static ReservationService getInstance() {
             if (reservationService == null) {
                 reservationService = new ReservationService();
@@ -20,6 +24,15 @@ public class ReservationService {
         List<IRoom> allRooms = new ArrayList<IRoom>();
         List<Reservation> allReservations = new ArrayList<Reservation>();
 
+    /**
+     * Creates a new Room.
+     * If price == 0.0, a FreeRoom instance will be created instead.
+     *
+     * @param roomNumber
+     * @param price
+     * @param roomType
+     * @return  Created Room or Null, if roomNumber already exists
+     */
         public IRoom addRoom(String roomNumber, Double price, RoomType roomType) {
             IRoom room = null;
             if (price == 0.0) { room = new FreeRoom(roomNumber, roomType); }
@@ -49,6 +62,13 @@ public class ReservationService {
             }
         }
 
+    /**
+     * Iterates over all Reservations to find available Rooms based on parameters.
+     *
+     * @param checkInDate
+     * @param checkOutDate
+     * @return  A List of available Rooms
+     */
         public List<IRoom> availableRooms(LocalDate checkInDate, LocalDate checkOutDate) {
 
             List<IRoom> available = new ArrayList<IRoom>(allRooms);
@@ -72,6 +92,15 @@ public class ReservationService {
             return available;
         }
 
+    /**
+     * Calls {@link #availableRooms}.
+     * Prints to console if whether reserveration was possible or not.
+     *
+     * @param userEmail
+     * @param userRoom
+     * @param checkInDate
+     * @param checkOutDate
+     */
         public void reserveRoom(String userEmail, String userRoom, LocalDate checkInDate, LocalDate checkOutDate) {
             Customer user = CustomerService.getInstance().getCustomer(userEmail);
             IRoom room = getRoom(userRoom);

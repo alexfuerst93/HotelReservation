@@ -1,5 +1,8 @@
 package alex.fuerst.cli;
 
+/**
+ * Class that provides bullet point choices for admin menu
+ */
 public class AdminMenu {
 
     public void getNavigation() {

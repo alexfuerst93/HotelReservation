@@ -2,11 +2,16 @@ package alex.fuerst.model;
 
 import java.util.regex.Pattern;
 
+/**
+ * Class for creating customers.
+ * Provided Email must be valid.
+ */
 public class Customer {
 
     private String firstName;
     private String lastName;
     private final String email;
+
 
     public Customer(String firstName, String lastName, String email) {
         this.firstName = firstName;

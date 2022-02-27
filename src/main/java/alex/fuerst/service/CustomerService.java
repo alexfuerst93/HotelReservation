@@ -5,6 +5,9 @@ import alex.fuerst.model.Customer;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Singelton class that creates and manages customers.
+ */
 public class CustomerService {
 
     // this is the single-only instance of this class
@@ -24,6 +27,16 @@ public class CustomerService {
     // Stores all created customers in a map
     private Map<String, Customer> allCustomers = new HashMap<String, Customer>();
 
+    /**
+     * Creates a new customer.
+     * {@link Customer} constructor contains regex for email validation.
+     *
+     * @param firstName
+     * @param lastName
+     * @param email
+     * @return  Customer or Null, if email already exists
+     * @throws  IllegalArgumentException if email is no valid
+     */
     public Customer addCustomer(String firstName, String lastName, String email) {
         Customer customer = new Customer(firstName, lastName, email);
         if (allCustomers.containsKey(customer.getEmail())) {

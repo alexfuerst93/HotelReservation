@@ -10,6 +10,9 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDate;
 
+/**
+ * Class for filling the reservation system with test data.
+ */
 public class FillTestData {
 
     private static FillTestData fillTestData;
@@ -23,6 +26,14 @@ public class FillTestData {
 
     private static boolean notFilled = true;
 
+    /**
+     * Reads multiple csv files from /src/main/resources directory.
+     * <li>testRooms.csv for adding Rooms</li>
+     * <li>testCustomers.csv for adding Customers</li>
+     * <li>testReservations.csv for adding Reservations</li>
+     * <br>
+     * Can only be called once. Prints error message to console if called twice.
+     */
     public void FillData() {
         if (notFilled) {
             read(Paths.get("src/main/resources/testRooms.csv"), "testRooms");
@@ -41,7 +52,7 @@ public class FillTestData {
         }
     }
 
-    public void read(Path path, String loadCsv) {
+    private void read(Path path, String loadCsv) {
         try (BufferedReader reader = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {
             String line = reader.readLine();
             do {
@@ -55,7 +66,7 @@ public class FillTestData {
         }
     }
 
-    public void switcher(String[] testData, String loadCsv) {
+    private void switcher(String[] testData, String loadCsv) {
         switch (loadCsv) {
             case "testRooms" : createRooms(testData); break;
             case "testCustomers" : createCustomers(testData); break;
@@ -63,7 +74,7 @@ public class FillTestData {
         }
     }
 
-    public void createRooms(String[] testData) {
+    private void createRooms(String[] testData) {
         String roomNumber = testData[0];
         Double price = Double.parseDouble(testData[1]);
         RoomType roomType;
@@ -77,14 +88,14 @@ public class FillTestData {
     }
 
 
-    public void createCustomers(String[] testData) {
+    private void createCustomers(String[] testData) {
         String firstName = testData[0];
         String lastName = testData[1];
         String email = testData[2];
         CustomerService.getInstance().addCustomer(firstName, lastName, email);
     }
 
-    public void createReservations(String[] testData) {
+    private void createReservations(String[] testData) {
         String email = testData[0];
         String roomNumber = testData[1];
         LocalDate checkIn = LocalDate.parse(testData[2]);

@@ -8,7 +8,6 @@ import alex.fuerst.service.ReservationService;
 public class AdminResource {
     // for hotel staff only
 
-
     public Customer getOneCustomer(String customerEmail) {
         return CustomerService.getInstance().getCustomer(customerEmail);
     }
