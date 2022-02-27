@@ -4,6 +4,8 @@ import alex.fuerst.model.RoomType;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -36,13 +38,13 @@ public class FillTestData {
      */
     public void FillData() {
         if (notFilled) {
-            read(Paths.get("src/main/resources/testRooms.csv"), "testRooms");
+            read("/testRooms.csv", "testRooms");
             System.out.println("Successfully added rooms.");
 
-            read(Paths.get("src/main/resources/testCustomers.csv"), "testCustomers");
+            read("/testCustomers.csv", "testCustomers");
             System.out.println("Successfully added customers.");
 
-            read(Paths.get("src/main/resources/testReservations.csv"), "testReservations");
+            read("/testReservations.csv", "testReservations");
             System.out.println("Successfully added reservations.");
 
             notFilled = false;
@@ -52,8 +54,11 @@ public class FillTestData {
         }
     }
 
-    private void read(Path path, String loadCsv) {
-        try (BufferedReader reader = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {
+    private void read(String path, String loadCsv) {
+        // refactored: src/main/resources gets lost after mvn package phase.
+        // the resources get placed onto the classpath. A "/" will access root.
+        try (InputStream inputStream = getClass().getResourceAsStream(path);
+             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8))) {
             String line = reader.readLine();
             do {
                 String[] testData = line.split(";");

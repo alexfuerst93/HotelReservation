@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f232d04-9e79-4014-90c3-e17b1bd74eab" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotelReservation.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alex/fuerst/api/AdminResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alex/fuerst/api/AdminResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alex/fuerst/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alex/fuerst/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alex/fuerst/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alex/fuerst/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotelReservation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hotelReservation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/alex/fuerst/service/FillTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alex/fuerst/service/FillTestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alex/fuerst/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alex/fuerst/service/ReservationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alex/fuerst/api/AdminResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alex/fuerst/api/AdminResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alex/fuerst/cli/AdminMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alex/fuerst/cli/AdminMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alex/fuerst/cli/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alex/fuerst/cli/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alex/fuerst/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alex/fuerst/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alex/fuerst/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alex/fuerst/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alex/fuerst/service/FillTestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alex/fuerst/service/FillTestData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/alex/fuerst/service/ReservationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alex/fuerst/service/ReservationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotelReservation-hotel_reservation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +48,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UdaSecurity/cd0384-java-application-deployment-projectstarter/starter/catpoint-parent" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
