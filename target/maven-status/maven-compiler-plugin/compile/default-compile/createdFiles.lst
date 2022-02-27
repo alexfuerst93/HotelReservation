@@ -1,0 +1,16 @@
+alex\fuerst\cli\AdminMenu.class
+alex\fuerst\model\FreeRoom.class
+alex\fuerst\cli\Main.class
+alex\fuerst\service\CustomerService.class
+alex\fuerst\api\AdminResource.class
+alex\fuerst\model\Customer.class
+alex\fuerst\model\Room.class
+alex\fuerst\service\Tester.class
+alex\fuerst\model\IRoom.class
+alex\fuerst\model\Reservation.class
+alex\fuerst\model\Tester.class
+alex\fuerst\api\HotelResource.class
+alex\fuerst\model\RoomType.class
+alex\fuerst\service\FillTestData.class
+alex\fuerst\service\ReservationService.class
+alex\fuerst\cli\MainMenu.class

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f232d04-9e79-4014-90c3-e17b1bd74eab" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotelReservation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/api/AdminResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/api/HotelResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/cli/AdminMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/cli/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/cli/MainMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/model/FreeRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/model/IRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/model/Reservation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/model/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/model/RoomType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/model/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/service/FillTestData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/service/ReservationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/service/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/testCustomers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/testReservations.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hotelReservation/testRooms.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/AdminResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/HotelResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cli/AdminMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cli/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cli/MainMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/FreeRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/IRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Reservation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/RoomType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Tester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/FillTestData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/ReservationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/Tester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testCustomers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testReservations.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testRooms.csv" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="25gez74KGTiKtIqcVocAwcw4Hc7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alex.fuerst.cli.Main" />
+      <module name="hotelReservation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alex.fuerst.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f232d04-9e79-4014-90c3-e17b1bd74eab" name="Changes" comment="" />
+      <created>1645953420137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645953420137</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
